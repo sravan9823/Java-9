@@ -1,0 +1,22 @@
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+	}
+
+}
+
+class MyThread implements Runnable {
+	
+	
+
+	@Override
+	public void run() {
+		
+	}
+	
+}

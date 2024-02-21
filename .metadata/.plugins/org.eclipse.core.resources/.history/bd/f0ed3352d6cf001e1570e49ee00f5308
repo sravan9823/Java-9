@@ -1,0 +1,44 @@
+import java.util.concurrent.Callable;
+
+public class Sample {
+
+	public static void main(String[] args) {
+
+		MyThread m1 = new MyThread();
+
+		m1.start();
+
+	}
+
+}
+
+class MyThread extends Thread {
+
+	private Integer total;
+	private Integer a;
+	private Integer b;
+
+	@Override
+	public void run() {
+		total = a * b;
+		System.out.println(total);
+
+	}
+
+	public Integer getA() {
+		return a;
+	}
+
+	public void setA(Integer a) {
+		this.a = a;
+	}
+
+	public Integer getB() {
+		return b;
+	}
+
+	public void setB(Integer b) {
+		this.b = b;
+	}
+
+}

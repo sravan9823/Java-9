@@ -1,0 +1,12 @@
+package com.sravanit.triggerlogin;
+
+//Project By Infosys 
+
+public class TriggerLogin {
+	
+	public static void main(String[] args) {
+
+	
+	}
+
+}

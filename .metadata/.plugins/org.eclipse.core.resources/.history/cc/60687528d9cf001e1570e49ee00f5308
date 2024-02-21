@@ -1,0 +1,11 @@
+package com.sravanit.login;
+
+public class Example {
+
+	public void validateUserNamePwd(String userName, String pwd) {
+		
+		LoginValidation lv = new LoginValidation();
+
+	}
+
+}

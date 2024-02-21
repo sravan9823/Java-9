@@ -1,0 +1,16 @@
+package com.sravanit.login;
+
+import com.sravanit.loginvalidation.LoginValidation;
+
+//Project By TCS
+
+public class Example {
+
+	public void validateUserNamePwd(String userName, String pwd) {
+
+		LoginValidation lv = new LoginValidation();
+
+		lv.validateUserNamePwd(userName, pwd);
+	}
+
+}

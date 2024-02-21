@@ -1,0 +1,26 @@
+
+public class Sample {
+
+	public static void main(String[] args) {
+		
+		MyThread m1 = new MyThread();
+		
+		m1.start();
+		
+
+	}
+
+}
+
+class MyThread extends Thread {
+
+	private Integer testValue;
+
+	@Override
+	public void run() {
+
+		testValue = 10 * 10;
+
+	}
+
+}

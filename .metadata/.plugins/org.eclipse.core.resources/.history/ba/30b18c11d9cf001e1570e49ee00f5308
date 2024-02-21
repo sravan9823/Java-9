@@ -1,0 +1,9 @@
+package com.sravanit.loginvalidation;
+
+public class LoginValidation {
+
+	public boolean validateUserNamePwd() {
+		return true;
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Convert local variable &apos;com.sravanit.TryWithoutResource.main().reader&apos; in &apos;com.sravanit.TryWithoutResource.main()&apos; to field&#x0D;&#x0A;- Original project: &apos;02_Try-Resource-App&apos;&#x0D;&#x0A;- Original element: &apos;com.sravanit.TryWithoutResource.main().reader&apos;&#x0D;&#x0A;- Field name: &apos;reader&apos;&#x0D;&#x0A;- Initialize field in method&#x0D;&#x0A;- Declared visibility: &apos;private&apos;&#x0D;&#x0A;- Declare field &apos;static&apos;" description="Convert local variable &apos;reader&apos; to field" final="false" flags="2" id="org.eclipse.jdt.ui.promote.temp" initialize="1" input="/src&lt;com.sravanit{TryWithoutResource.java" name="reader" selection="435 63" stamp="1707286421311" static="true" version="1.0" visibility="2"/>
+</session>

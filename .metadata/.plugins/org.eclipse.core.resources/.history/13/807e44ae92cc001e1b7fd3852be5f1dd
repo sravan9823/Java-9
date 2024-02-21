@@ -1,0 +1,31 @@
+package com.sravanit;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class DiamondOperatorChanges {
+
+	public static void main(String[] args) {
+
+		List<Integer> list = new ArrayList<>();
+
+		list.add(10);
+		// list.add("sravan");
+		// list.add(10.983); // type safety issue
+
+		DiamondOperator diamondOperator = new DiamondOperator() {
+
+			@Override
+			public void calculate() {
+
+			}
+		};
+
+	}
+
+}
+
+abstract class DiamondOperator<T> {
+
+	public abstract void calculate();
+}

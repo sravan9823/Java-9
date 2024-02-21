@@ -1,0 +1,24 @@
+
+public class Sample {
+
+	public static void main(String[] args) {
+		
+		
+		
+
+	}
+
+}
+
+class MyThread implements Runnable {
+
+	private Integer testValue;
+
+	@Override
+	public void run() {
+
+		testValue = 10 * 10;
+
+	}
+
+}
